@@ -1,4 +1,7 @@
+# Testing feature branch
 import os
+APP_ENV= os.getenv("APP_ENV","development")
+print(f"Application Enviroment: {APP_ENV}")
 import shutil
 import logging
 import time
