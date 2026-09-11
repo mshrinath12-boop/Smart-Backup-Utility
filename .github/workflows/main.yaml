@@ -11,4 +11,6 @@ jobs:
      - name: Setup Python
        uses: actions/setup-python@v6
        with:
-         python-version: 3.12  
+         python-version: 3.12
+     - name: Syntax Check
+       run: python -m py_compile v3.6/src/03_Smart_backup_utility.py      
